@@ -1,0 +1,44 @@
+body{
+    background-color: skyblue;
+    height:900px;
+}
+canvas{
+    margin-top: 200px;
+    z-index: 10;
+}
+video{
+    margin-top:200px;
+    z-index: 10;
+}
+#header{
+    white-space: normal;
+    font-size:35px;
+    font-family: 'Henny Penny', cursive;
+    color:blue;
+}
+.line{
+    width:90%;
+    height:5px;
+    background-color: cyan;
+    margin:5px auto;
+}
+.form-control{
+    width:70%;
+    margin:0px auto;
+}
+#note{
+    color:yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    line-height: 2;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    font-size: 20px;
+    background-color: turquoise;
+    color:black;
+    z-index: 11;
+}
